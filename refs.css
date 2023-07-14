@@ -30,6 +30,8 @@ body{
     border-radius: 10px;
     font-family: monospace;
     font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
 }
 
 .gif{
