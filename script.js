@@ -3,7 +3,7 @@ function showusername(){
     var pwdcontent = document.getElementById("pwdcontent");
     var repwdcontent = document.getElementById("repwdcontent");
     if(usernamecontent.value == "" || pwdcontent.value == "" || repwdcontent.value == ""){
-        alert("username or passwrod shouldn't be empty");
+        alert("username or password shouldn't be empty");
     }else{
         if(pwdcontent.value == repwdcontent.value){
             usernamecontent.value = "";
