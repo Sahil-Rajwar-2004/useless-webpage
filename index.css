@@ -21,13 +21,18 @@ body{
 }
 
 .heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 10px;
     columns: rgb(255,255,255);
     font-family: monospace;
+    color: orange;
     font-weight: bold;
     font-size: 30px;
     font-style: italic;
-    text-decoration: underline wavy;
+    text-decoration: underline wavy red;
 }
 
 .username{
@@ -83,6 +88,7 @@ body{
     font-size: large;
     font-style: oblique;
     font-weight: bold;
+    text-decoration: wavy;
 }
 
 p{
